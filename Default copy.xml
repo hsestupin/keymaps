@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Default copy" parent="$default">
+  <action id=":plugin.repl.actions/load-file">
+    <keyboard-shortcut first-keystroke="shift control L" />
+  </action>
+  <action id=":plugin.repl.actions/run-top-sexp">
+    <keyboard-shortcut first-keystroke="shift control H" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift control alt A" />
+  </action>
+  <action id="ChangesView.Commit">
+    <keyboard-shortcut first-keystroke="shift control alt L" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift F3" />
+  </action>
+  <action id="Git.Revert">
+    <keyboard-shortcut first-keystroke="shift alt R" />
+  </action>
+  <action id="GotoCustomRegion" />
+  <action id="RerunTests" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="shift alt H" />
+  </action>
+</keymap>
+
